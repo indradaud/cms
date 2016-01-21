@@ -1,0 +1,243 @@
+@charset 'utf-8';
+@font-face{
+  font-family: 'Jenna Sue';
+  src: url('../fonts/JennaSue.ttf');
+}
+@font-face{
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+body{
+  font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.navbar{
+  border-radius: 0;
+  margin: 0;
+}
+.navbar-inverse{
+  border: 0;
+  border-bottom: 2px solid #1B9360;
+  background: #32BF83;
+}
+.navbar-brand{
+  font-family: 'Jenna Sue';
+  font-size: 30px;
+  width: 218px;
+}
+.navbar-brand span{
+  float: left;
+  line-height: 20px;
+  margin-right: 8px;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+  color: #FFF;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+  background: #1B9360;
+}
+.dropdown-menu{
+  background: #222d32;
+  border-radius: 0;
+}
+.dropdown-menu .divider{
+  background: #1a2226;
+}
+.dropdown-menu>li>a{
+  color: #b8c7ce;
+}
+.dropdown-menu>li>a:hover{
+  background: transparent;
+  color: #FFF;
+}
+.dropdown-menu li a span{
+  width: 25px;
+}
+.navbar .nav>li>a>.label{
+  position: absolute;
+  top: 9px;
+  right: 7px;
+  text-align: center;
+  font-size: 9px;
+  padding: 2px 3px;
+  line-height: .9;
+}
+#notif{
+  background: #FFF;
+  color: #1a2226;
+  width: 280px;
+  border-top-color: #1B9360;
+}
+#notif li ul{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  overflow-y:auto;
+  max-height: 300px;
+}
+#notif li ul li{
+  border-top:1px solid #f3f3f3;
+  padding: 0 10px;
+}
+#notif li ul li h5{
+  margin: 0;
+  margin-top: 5px;
+}
+#sidebar{
+  background: #222d32;
+  padding:0;
+  margin: 0;
+  overflow: hidden;
+}
+.user-panel{
+  padding: 20px;
+  color: #FFF;
+}
+.user-panel img{
+  width: 45px;
+  height: 45px;
+}
+.user-panel .info{
+  color: #FFF;
+  font-weight: 600;
+  font-size: 12px;
+  margin-left: 1em;
+}
+.user-panel .info p{
+  margin: 3px 0;
+  padding: 0;
+}
+.user-panel .info a{
+  font-weight: normal;
+  font-size: 11px;
+  color: #FFF;
+  text-decoration: none;
+}
+.sidebar-menu{
+  margin-top: 2em;
+  list-style-type: none;
+  padding: 0;
+}
+.sidebar-menu li{
+  line-height: 40px;
+}
+.sidebar-menu li:hover{
+  background: #1E282C;
+  cursor: pointer;
+}
+.sidebar-menu li.header{
+  background: #1a2226;
+  color: #4b646f;
+  font-size: 12px;
+  padding: 0 15px;
+}
+.sidebar-menu li a{
+  color: #b8c7ce;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 0 15px;
+}
+.sidebar-menu li a span{
+  width: 20px;
+  line-height: 40px;
+}
+.dropdown-contents{
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+  background: #2C3B41;
+
+}
+a.activex{
+  color: purple;
+}
+.dropdown-contents li:hover{
+  background: transparent;
+}
+.dropdown-contents li a:hover{
+  color: #FFF;
+}
+.dropdown-link-active{
+  background: #1a2226;
+}
+.dropdown-link-active-a{
+  color: red;
+}
+.angle-left-rotate{
+  transform:rotate(-90deg);
+  color: #419369;
+}
+.breadcrumb{
+  margin-top: 1em;
+}
+.info-box{
+  padding: 0;
+  color: #FFF;
+  border-left: 5px solid #FFF;
+  box-shadow: 2px 1px 1px #DDD;
+  position: relative;
+  opacity: 0.9;
+  cursor: pointer;
+}
+.info-box h3, .info-box h4{
+  line-height: 8px;
+}
+.info-box h3{
+  font-weight: bold;
+}
+.info-box h6{
+  line-height: 20px;
+}
+.info-box span{
+  float: left;
+  margin-right: 6px;
+  width: 90px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+}
+.info-box-blue{
+  background: #00C0EF;
+}
+.info-box-blue span{
+  background: #009ABF;
+}
+.info-box-green{
+  background: #00A65A;
+}
+.info-box-green span{
+  background: #008548;
+}
+.info-box-orange{
+  background: #F39C12;
+}
+.info-box-orange span{
+  background: #C37D0E
+}
+.info-box-red{
+  background: #DD4B39;
+}
+.info-box-red span{
+  background: #B13C2E;
+}
+.info-box:hover{
+  opacity: 1;
+}
+.panel-heading h2{
+  color:#1B9360;
+}
+.donat-chart-ket{
+  list-style-type: none;
+  padding: 0;
+  width: 120px;
+  margin: 0;
+}
+.donat-chart-ket li span{
+  width: 20px;
+}
+.table th, .table td{
+  text-align: center;
+}
+.table td a span{
+  width: 20px;
+}

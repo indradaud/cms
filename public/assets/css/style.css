@@ -1,0 +1,55 @@
+@charset 'utf-8';
+
+@font-face{
+  font-family: 'Jenna Sue';
+  src: url('../fonts/JennaSue.ttf');
+}
+@font-face{
+  font-family: 'Source Sans Pro';
+  src: url('../fonts/SourceSansPro-Regular.ttf');
+}
+body{
+    background: #D4EFDA;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+#container{
+    background: #FFF;
+    padding: 0;
+}
+
+header
+{
+    background: #50CCAF;
+    padding: 1em;
+    border-bottom: 4px solid #3CA78E;
+}
+.nav-pills>li>a{
+    color: #256B5B;
+    line-height: 0;
+    font-size: 16px;
+}
+.nav-pills>li>a:hover{
+    color: #D4EFDA;
+    background: none;
+}
+
+#content
+{
+    padding: 1.8em 1em;
+}
+
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+    height: 220px;
+}
+.article-info
+{
+    margin-bottom: 4px;
+}
+.article-info span{
+    width: 18px;
+}
+.selengkapnya{
+    position: absolute;
+    bottom: 1.8em;
+}
